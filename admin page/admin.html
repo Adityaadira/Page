@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-white shadow">
+        <div class="px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-semibold items-end text-red-700">Admin Page</div>                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex">
+        <aside class="w-64 bg-white shadow-lg h-screen sm:block hidden">
+            <div class="px-4 py-6 sm:block hidden">
+                <h2 class="text-lg font-semibold border-red-700 text-black">Menu</h2>
+                <ul class="mt-4">
+                    <a href="../admin.html"><li class="block py-2 text-red-700 hover:bg-gray-50 rounded-xl">Dashboard</li></a>
+                    <a href="../admin page/side bar admin page/pengguna.html"><li class="block py-2 text-red-700 hover:bg-gray-50 rounded-xl">Pengguna</li></a>
+                    <li><a href="#" class="block py-2 text-red-700 hover:bg-gray-50 rounded-xl">Produk</a></li>
+                    <li><a href="#" class="block py-2 text-red-700 hover:bg-gray-50 rounded-xl">Pesanan</a></li>
+                    <a href="../home/home.html"><li class="block py-2 text-red-700 hover:bg-gray-50 rounded-xl">Beranda</li></a>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="flex-1 p-6">
+            <h1 class="text-2xl font-bold text-red-700">Dashboard</h1>
+            <div class="mt-6">
+                <h2 class="text-xl font-semibold">Statistik</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+                    <div class="bg-white p-4 shadow rounded-2xl border">
+                        <h3 class="font-bold">Total Pengguna</h3>
+                        <p class="text-2xl">2</p>
+                    </div>
+                    <div class="bg-white p-4 shadow rounded-2xl border">
+                        <h3 class="font-bold">Total Produk</h3>
+                        <p class="text-2xl">0</p>
+                    </div>
+                    <div class="bg-white p-4 shadow rounded-2xl border">
+                        <h3 class="font-bold">Total Pesanan</h3>
+                        <p class="text-2xl">0</p>
+                    </div>
+                </div>
+            </div>
+            <a href="../home/home.html"><button class="sm:block md:hidden lg:hidden xl:hidden 2xl:hidden mt-5 px-3 bg-red-700 rounded-xl text-white ">Kembali</button></a>
+        </main>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-custom {
+            background-image: url('https://static.vecteezy.com/system/resources/previews/002/469/158/original/red-and-white-indonesian-independence-day-background-free-vector.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-custom min-h-screen">
+    <div class="max-w-5xl mx-auto p-8 bg-gray-100 bg-opacity-90 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold mb-6 text-red-700 text-center">Pesanan</h1>
+        <table class="min-w-full bg-gray-100 border border-gray-300">
+            <thead>
+                <tr>
+                    <th class="py-2 px-4 border-b text-left">No. Pesanan</th>
+                    <th class="py-2 px-4 border-b text-left">Produk</th>
+                    <th class="py-2 px-4 border-b text-left">Jumlah</th>
+                    <th class="py-2 px-4 border-b text-left">Harga</th>
+                    <th class="py-2 px-4 border-b text-left">Status</th>
+                    <th class="py-2 px-4 border-b text-left">Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="py-2 px-4 border-b">#001</td>
+                    <td class="py-2 px-4 border-b">Scoopy 2021</td>
+                    <td class="py-2 px-4 border-b">2</td>
+                    <td class="py-2 px-4 border-b">Rp 40.000.000</td>
+                    <td class="py-2 px-4 border-b text-yellow-600">Dalam Proses</td>
+                    <td class="py-2 px-4 border-b">
+                        <button class="bg-red-700 text-white px-2 py-1 rounded hover:bg-red-500 transition duration-200">Kirim</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b">#002</td>
+                    <td class="py-2 px-4 border-b">Gapura Unsur</td>
+                    <td class="py-2 px-4 border-b">1</td>
+                    <td class="py-2 px-4 border-b">Rp 15.250.000</td>
+                    <td class="py-2 px-4 border-b text-yellow-600">Dalam Proses</td>
+                    <td class="py-2 px-4 border-b">
+                        <button class="bg-red-700 text-white px-2 py-1 rounded hover:bg-red-500 transition duration-200">Kirim</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="py-2 px-4 border-b">#003</td>
+                    <td class="py-2 px-4 border-b">76 Mangga</td>
+                    <td class="py-2 px-4 border-b">3</td>
+                    <td class="py-2 px-4 border-b">Rp 45.000</td>
+                    <td class="py-2 px-4 border-b text-yellow-600">Di antar ke alamat tujuan</td>
+                    <td class="py-2 px-4 border-b">
+                        <button class="bg-green-600 text-white px-2 py-1 rounded hover:bg-green-400 transition duration-200">Selesai</button>
+                    </td>
+                </tr>
+            </tbody>    
+        </table>
+        <a href="/admin page/admin.html">
+            <button class="mt-5 px-3 bg-red-700 rounded-xl text-white hover:bg-red-500 transition duration-200">Kembali</button>
+        </a>
+    </div>
+</body>
+</html>
